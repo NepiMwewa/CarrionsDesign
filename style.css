@@ -7,11 +7,10 @@
 /*Start of navigation*/
   #logo-fig{
     padding-top: 16px;
-    width: 128px;
+    width: 512px;
     margin: auto;
   }
   #logo-img{
-    border-radius: 50%;
     width: 100%;
   }
   figcaption{
@@ -41,7 +40,7 @@
 
   }
   nav li{
-    padding: 2rem;
+    padding: .75rem;
     list-style: none;
   }
   nav a {
