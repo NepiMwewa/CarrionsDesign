@@ -6,8 +6,9 @@
 
 /*Start of navigation*/
   #logo-fig{
-    padding-top: 16px;
-    width: 40%;
+    padding-top: 3rem;
+    padding-bottom: 1rem;
+    width: 50%;
     margin: auto;
   }
   #logo-img{
@@ -40,12 +41,12 @@
 
   }
   nav li{
-    padding: .75rem;
+    padding: .5rem;
     list-style: none;
   }
   nav a {
-    padding: 2rem;
-    font-size: 2.5rem;
+    padding: 1rem;
+    font-size: 1rem;
     font-family: sans-serif;
     color: white;
     text-shadow: 1px 1px 4px #6B6B6B;
@@ -67,7 +68,7 @@
     margin: 1rem 2rem;
   }
 
-  #top-img-container{
+  #showcase-container{
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
@@ -75,28 +76,18 @@
     margin: 2rem;
   }
 
-  #top-img-container figure{
-    width: 70%;
+  #showcase-container figure{
+    width: 90%;
   }
-  .img-card{
+  .showcase-card{
     background-color: #e9c5c9;
-    border-style: solid;
-    border-radius: 4px;
-    border-color: white;
   }
-  #box-fig{
-    background-color: #acd5eb;
-  }
-  #fabric-fig{
-    background-color: #f7c6b5;
-  }
-
   .top-imgs{
     display: block;
-    width: 75%;
+    width: 100%;
     margin: 2rem auto .5rem auto;
   }
-  #top-img-container figcaption{
+  #showcase-container figcaption{
     display: block;
 
     color: white;
@@ -114,84 +105,66 @@
 
   /*Start of Second Article Form*/
 
-  #second-article{
+  #link-container{
     display: flex;
-    flex-wrap: wrap;
     justify-content: space-around;
-    align-items: center;
-  }
+    flex-wrap: wrap;
 
-  form{
-    background-color: #614c7d;
-    padding: 2rem;
-
-    font-family: sans-serif;
-  }
-
-  fieldset{
-    border-style: none;
-    margin: 1.5rem 0px;
-  }
-  legend{
-    color: #e8e8e8;
-    margin-bottom: .5rem;
-    font-size: 2rem;
-  }
-  #main_legend{
-    text-align: center;
-    color: white;
-    font-size: 3rem;
-    text-transform: uppercase;
-  }
-
-  label{
-    color: #e8e8e8;
-    font-size: 2rem;
-  }
-
-  input{
-    margin-top: 1rem;
-    font-size: 2rem;
-  }
-  #text-entry input{
-    width: 90%;
-    height: 3rem;
     margin: 1rem;
   }
 
-  textarea{
-    margin: .2rem;
-    width: 90%;
-    height: 14rem;
-    font-size: 2rem;
+  #link-container figure{
+    width: 20%;
   }
-  #submit{
-    font-size: 3rem;
-    color:  #614c7d;
-    border-radius: 5px;
-    background-color: white;
-    padding: .8rem 2rem;
+  .link-card{
+  }
+  .link-imgs{
+    display: block;
+    width: 100%;
+  }
+  #link-container figcaption{
+    display: block;
+
+    color: black;
+
+    text-align: left;
+    font-size: 1.2rem;
+    font-family: sans-serif;
+
+
+    margin: 0px .4rem .4rem .4rem;
+  }
+  .buy_now_button{
+    display: block;
+    text-align: center;
+    margin: auto;
+    padding: 0.3rem 0.0rem;
+
+    width: 65%;
+
+    font-size: 1.6rem;
+    color: black;
+
+    border-style: solid;
+    border-width: 2px;
+    border-color: black;
+
+    text-decoration: none;
+  }
+  .buy_now_button:visited{
+    text-decoration: none;
+  }
+  .buy_now_button:hover{
+    background-color: #f0f0f0;
   }
 
   /*End of Second Article Form*/
 
-  /*Start of Aside*/
+  /*Start of contact_Artical*/
+  #contact_artical{
 
-  aside{
-    border-style: solid;
-    border-width: thick;
-    border-color: #f7c6b5;
   }
-
-  #aside-img-fig{
-    margin: 16px;
-  }
-
-  #aside-img{
-    width: 100%;
-  }
-
-  /*End of Aside*/
+  /*End of contact_Artical*/
 
   /*Start of Footer*/
   footer{
@@ -227,6 +200,12 @@
 
 /*desktop version*/
 @media (min-width: 1024px){
+  #logo-fig{
+    padding-top: 3rem;
+    padding-bottom: 1rem;
+    width: 25%;
+    margin: auto;
+  }
   h1{
     font-size: 4rem;
   }
@@ -237,50 +216,26 @@
   h2{
     font-size: 2.5rem;
   }
-  #top-img-container{
+  #showcase-container{
     display: flex;
     justify-content: space-around;
 
     margin: 2rem;
   }
 
-  #top-img-container figure{
-    width: 30%;
+  #showcase-container figure{
+    width: 45%;
   }
 
-  fieldset{
-    margin-top: 1rem;
-  }
-  legend{
-    font-size: 1rem;
-    margin-bottom: .2rem;
-  }
-
-  label{
-    font-size: 1rem;
-    margin: 0px;
-  }
-
-  input{
-    font-size: 1.4rem;
-    margin: 0px;
-  }
-  #text-entry input{
-    height: 2rem;
-  }
-
-  #top-img-container figcaption{
+  #showcase-container figcaption{
     font-size: 1.2rem;
   }
-  #main_legend{
-    font-size: 1.8rem;
-  }
-  textarea{
-    height: 5rem;
-    font-size: 1rem;
-  }
-  #submit{
-    font-size: 1.5rem;
+
+  #link-container{
+    display: flex;
+    justify-content: space-around;
+
+    margin: 2rem;
   }
   footer>ul>li{
     font-size: 1.3rem;
