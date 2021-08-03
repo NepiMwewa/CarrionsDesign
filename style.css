@@ -59,10 +59,11 @@
   /*Start of First Article*/
   h2{
     text-align: center;
-    font-size: 2.5rem;
+    font-size: 1.2rem;
+    font-weight: normal;
     margin: 1rem;
 
-    color: #614c7d;
+
   }
   .first-article p{
     margin: 1rem 2rem;
@@ -77,7 +78,7 @@
   }
 
   #showcase-container figure{
-    width: 100%;
+    width: 95%;
   }
   .showcase-card{
   }
@@ -149,19 +150,30 @@
   /*End of Second Article Form*/
 
   /*Start of contact_Artical*/
-  #contact_artical{
-
+  #contact_container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  .contact_card{
+    margin: 0.75rem;
   }
   /*End of contact_Artical*/
 
   /*Start of Footer*/
+  #logo-small-img{
+    width: 100%;
+  }
+  #logo-small-fig{
+    padding-top: 3rem;
+    padding-bottom: 1rem;
+    width: 20%;
+    margin: auto;
+  }
   footer{
     width: 100%;
 
-    background: rgb(247,198,181);
-    background: -moz-linear-gradient(90deg, rgba(247,198,181,1) 0%, rgba(226,165,205,1) 51%, rgba(172,213,235,1) 100%);
-    background: -webkit-linear-gradient(90deg, rgba(247,198,181,1) 0%, rgba(226,165,205,1) 51%, rgba(172,213,235,1) 100%);
-    background: linear-gradient(90deg, rgba(247,198,181,1) 0%, rgba(226,165,205,1) 51%, rgba(172,213,235,1) 100%);
+
   }
   footer>ul{
     display: flex;
@@ -174,8 +186,7 @@
   footer>ul>li{
     font-size: 2rem;
     text-align: center;
-    color: white;
-    text-shadow: 1px 1px 4px #6B6B6B;
+    color: black;
 
     width: 75%;
     word-wrap: break-word;
@@ -225,8 +236,25 @@
 
     margin: 2rem;
   }
+
+
+  footer>ul{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    list-style-type: none;
+    margin-top: 2rem;
+    padding: 2rem;
+  }
   footer>ul>li{
-    font-size: 1.3rem;
-    width: 25%;
+    font-family: monospace;
+    font-size: 1.2rem;
+    text-align: center;
+    color: black;
+
+    width: 75%;
+    word-wrap: break-word;
+
+    margin: 0rem 0rem;
   }
 }
