@@ -5,11 +5,23 @@
 
 
 /*Start of navigation*/
+#shopping-group-container{
+  display: flex;
+  justify-content: flex-end;
+  flex-wrap: wrap;
+}
+.shopping-card{
+  margin: 0.75rem;
+}
+.shopping-imgs{
+
+}
+
   #logo-fig{
-    padding-top: 1rem;
-    padding-bottom: 1rem;
     width: 65%;
-    margin: auto;
+    margin-top: 1rem;
+    position: relative;
+    bottom: 2rem;
   }
   #logo-img{
     width: 100%;
