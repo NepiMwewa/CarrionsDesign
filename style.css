@@ -167,13 +167,11 @@
   #logo-small-fig{
     padding-top: 3rem;
     padding-bottom: 1rem;
-    width: 10%;
+    width: 12%;
     margin: auto;
   }
   footer{
     width: 100%;
-
-
   }
   footer>ul{
     display: flex;
@@ -231,7 +229,7 @@
   }
 
   #second-article{
-    margin-top: 10rem;
+    margin-top: 8rem;
   }
 
   #link-container{
@@ -250,12 +248,12 @@
     justify-content: space-around;
     flex-wrap: wrap;
     list-style-type: none;
-    margin-top: 2rem;
+    margin-top: 1rem;
     padding: 2rem;
   }
   footer>ul>li{
     font-family: monospace;
-    font-size: 1.2rem;
+    font-size: 1rem;
     text-align: center;
     color: black;
 
