@@ -123,7 +123,7 @@
 
     margin: 0px .4rem .4rem .4rem;
   }
-  .buy_now_button{
+  .buy-now-button{
     display: block;
     text-align: center;
     margin: auto;
@@ -140,22 +140,22 @@
 
     text-decoration: none;
   }
-  .buy_now_button:visited{
+  .buy-now-button:visited{
     text-decoration: none;
   }
-  .buy_now_button:hover{
+  .buy-now-button:hover{
     background-color: #f0f0f0;
   }
 
   /*End of Second Article Form*/
 
   /*Start of contact_Artical*/
-  #contact_container{
+  #contact-container{
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
   }
-  .contact_card{
+  .contact-card{
     margin: 0.75rem;
   }
   /*End of contact_Artical*/
@@ -230,6 +230,10 @@
     font-size: 1.2rem;
   }
 
+  #second-article{
+    margin-top: 10rem;
+  }
+
   #link-container{
     display: flex;
     justify-content: space-around;
@@ -237,6 +241,9 @@
     margin: 2rem;
   }
 
+  #contact-artical{
+    margin-top: 10rem;
+  }
 
   footer>ul{
     display: flex;
